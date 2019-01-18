@@ -1,9 +1,4 @@
-# require 'watir'
 require 'launchy'
-
-# Launchy.open("http://stackoverflow.com")
-
-#search?q=ta+recherche
 
 def check_if_user_gave_input
   abort("missing input") if ARGV.empty?
