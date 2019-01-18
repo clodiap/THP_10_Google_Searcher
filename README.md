@@ -4,3 +4,5 @@ Ce petit programme Ruby 💎 permet de lancer une recherche google 👀 depuis s
 
 Il faudra créer un alias pour que la commande soit reconnue :
 `alias search="ruby /home/ton/chemin/vers/google_searcher.rb"`
+
+Petit bonus : programme Ruby qui va lancer une recherche sur duckduckgo.com
