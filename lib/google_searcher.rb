@@ -1,7 +1,7 @@
 require 'launchy'
 
 def check_if_user_gave_input
-  abort("missing input") if ARGV.empty?
+  abort("Missing input, please enter your search words.") if ARGV.empty?
 end
 
 def get_url
