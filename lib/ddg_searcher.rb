@@ -9,8 +9,7 @@ def get_url
 end
 
 def open_url(url)
-  # p url
-  Launchy.open("https://duckduckgo.com/?q=#{url.join("+")}")
+  Launchy.open("https://duckduckgo.com/?q=ruby+on+rails+#{url.join("+")}")
 end
 check_if_user_gave_input
 open_url(get_url)
